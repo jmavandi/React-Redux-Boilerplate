@@ -1,0 +1,43 @@
+{
+    "name": "react_redux_boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server/server.js",
+        "build-webpack": "webpack",
+        "webpack-dev": "webpack-dev-server"
+    },
+    "author": "Jon Mavan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.12.3",
+        "lightercollective": "^0.2.0",
+        "npm-check-updates": "^3.1.4",
+        "pg": "^7.8.0",
+        "pg-promise": "^8.5.5",
+        "react": "16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^6.0.1",
+        "redux": "^4.0.1",
+        "redux-devtools-extension": "^2.13.5",
+        "redux-thunk": "^2.3.0",
+        "webpack": "^4.28.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/plugin-proposal-class-properties": "^7.2.3",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "body-parser": "^1.18.3",
+        "css-loader": "^2.1.1",
+        "dotenv": "^6.2.0",
+        "node-sass": "^4.11.0",
+        "nodemon": "^1.18.9",
+        "request": "^2.88.0",
+        "sass-loader": "^6.0.7",
+        "style-loader": "^0.20.3",
+        "webpack-cli": "^3.1.1",
+        "webpack-dev-server": "^3.1.14"
+    }
+}
